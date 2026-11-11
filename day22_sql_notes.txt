@@ -1,0 +1,18 @@
+CREATE TABLE students(
+    id INTEGER PRIMARY KEY,
+    name TEXT,
+    grade INTEGER
+)
+INSERT INTO students(name, grade)VALUES('Paul',15);
+
+SELECT*FROM students;
+
+UPDATE students SET grade = 18 WHERE name = 'Paul';
+
+DELETE FROM students WHERE name = 'Paul';
+
+A database is a stricter structure of how to organize data in a way that makes it easy to filter, 
+enforce rules and interfer with, using a special language called sql when compared to spreadsheet and csv.
+So a spreadsheet is something  a human opens and scrolls through directly, while a database is designed to be
+queried by a program - you don't browse it visually, you ask it specific questions like "SELECT FROM students WHERE
+grade > 15" and it returns exactly what matches even if there are millions of rows.

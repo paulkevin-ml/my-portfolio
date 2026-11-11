@@ -1,0 +1,4 @@
+__pycache__/
+save.json
+*.db
+test_folder/

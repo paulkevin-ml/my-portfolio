@@ -1,0 +1,37 @@
+[
+    {
+        "ID": 1,
+        "Titre": "Comptes Actifs",
+        "Enonce": "Un systeme possede 5 comptes. Compte1: actif, Compte2: actif, Compte3: bloque, Compte4: actif, Compte5: bloque. Combien de comptes sont actifs?",
+        "Reponse": "3",
+        "XP": 50
+    }
+    ,{
+       "ID": 2,
+        "Titre": "Mot de passe logique",
+        "Enonce": "Trouve le mot de passe logique: 2-4-8-16?",
+        "Reponse": "32",
+        "XP": 50 
+     }
+    ,{
+        "ID": 3,
+         "Titre": "Mot de passe cache",
+         "Enonce": "Le mot de passe est cache dans cette phrase, ce sont les premieres lettres de chaque mot: 'Chat Yeux Bleus Rouge'?",
+         "Reponse": "CYBR",
+         "XP": 75
+    }
+    ,{
+        "ID": 4,
+         "Titre": "Dictionnaire des IP suspectes",
+         "Enonce": "Voici un dictionnaire d'adresses IP et leur statut: {'192.168.1.1': 'safe', '10.0.0.5': 'suspect', '172.16.0.9': 'safe'}. Combien d'IP sont 'suspect'?",
+         "Reponse": "1",
+         "XP": 60 
+    }
+    ,{
+        "ID": 5,
+         "Titre": "Decryptage simple",
+         "Enonce": "Decale chaque lettre de 1 vers l'avant dans l'alphabet pour trouver le mot: 'gnaax'",
+         "Reponse": "hobby",
+         "XP": 80
+    }
+]
